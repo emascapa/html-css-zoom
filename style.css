@@ -11,13 +11,15 @@
     --share-screen: #4BC800;
     --leave-meeting: #E6192B;
     --font-color: #FFFFFF;
+    --label-bg: rgba(50, 50, 50, 0.5);
 
     --footer-height: 70px;
 
     --font-1: Arial, Helvetica, sans-serif;
 
-    --font-size-1: 0.8rem;
+    --font-size-1: 0.7rem;
     --icon-size-1: 1.5rem;
+    --icon-size-2: 0.8rem;
 }
 
 body {
@@ -73,6 +75,63 @@ body {
 
 #site_main {
     height: calc(100vh - var(--footer-height));
+    color: var(--font-color);
+}
+
+#site_main>.main_wrapper {
+    position: relative;
+    height: 100%;
+}
+
+#site_main .top_buttons {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#site_main .top_buttons>a {
+    padding: 0.5rem;
+    background-color: var(--nav-color);
+    border-radius: 5px;
+    margin-left: 0.5rem;
+
+}
+
+#site_main .fa-burger {
+    margin-right: 0.5rem;
+}
+
+#site_main .wrapper.d_flex {
+    /* position: absolute;
+    bottom: 2rem;
+    left: 0; */
+
+    flex-flow: row wrap;
+    /* border: 1px solid green; */
+
+    gap: 1rem 0.5rem;
+    justify-content: center;
+
+}
+
+.user {
+    /* border: 1px solid white; */
+    width: calc(100vw / 8.2);
+    position: relative;
+}
+
+.user img {
+    max-width: 100%;
+}
+
+.user > .label {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    padding: 0.3rem;
+    background-color: var(--label-bg);
+
+
 }
 
 
