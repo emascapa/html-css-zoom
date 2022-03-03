@@ -1,24 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./style.css">
+
+    <script src="https://kit.fontawesome.com/ac7715c080.js" crossorigin="anonymous"></script>
+
     <title>Zoom - Boolean</title>
 </head>
-<body>
-    <header id="site_header"></header>
-    <!-- /#site_header -->
 
-    <main id="site_main"></main>
+<body>
+
+    <main id="site_main">
+
+    </main>
     <!-- /#site_main -->
 
     <footer id="site_footer">
-        <nav class="site_nav"></nav>
+        <!-- Site nav starts here. It's splitted in 3 section -->
+        <nav class="site_nav d_flex">
+            <!-- Nav left here -->
+            <div class="nav_left d_flex font_size_1 column_gap_med">
+                <div class="action d_flex justify_center align_center column_gap_small">
+                    <a href="#" class="d_flex dir_column style_none align_center row_gap_small">
+                        <i class="fa-solid fa-microphone icon_size_1"></i>
+                        <span>Mute</span>
+                    </a>
+                    <a href="#" class="style_none font_size_1"><i class="fa-solid fa-angle-up"></i></a>
+                </div>
+                <div class="action d_flex justify_center align_center column_gap_small">
+                    <a href="#" class="d_flex dir_column style_none align_center row_gap_small">
+                        <i class="fa-solid fa-video icon_size_1"></i>
+                        <span>Stop video</span>
+                    </a>
+                    <a href="#" class="style_none"><i class="fa-solid fa-angle-up"></i></a>
+                </div>
+            </div>
+
+            <!-- nav center here -->
+            <div class="nav_center d_flex font_size_1 align_center column_gap_med">
+                <a href="#" class="d_flex dir_column style_none align_center row_gap_small">
+                    <i class="fa-solid fa-user-plus icon_size_1"></i>
+                    <span>Invite</span>
+                </a>
+                <a href="#" class="d_flex dir_column style_none align_center row_gap_small">
+                    <i class="fa-solid fa-user-group icon_size_1"></i>
+                    <span>Manage Participants</span>
+                </a>
+                <a href="#" class="d_flex dir_column style_none align_center row_gap_small">
+                    <i class="fa-solid fa-square-poll-vertical icon_size_1"></i>
+                    <span>Polling</span>
+                </a>
+                <div class="action d_flex justify_center align_center column_gap_small">
+                    <a href="#" class="d_flex dir_column style_none align_center row_gap_small">
+                        <i class="fa-solid fa-share-from-square icon_size_1 green"></i>
+                        <span>Share Screen</span>
+                    </a>
+                    <a href="#" class="style_none font_size_1"><i class="fa-solid fa-angle-up"></i></a>
+                </div>
+                <a href="#" class="d_flex dir_column style_none align_center row_gap_small">
+                    <i class="fa-solid fa-comment icon_size_1"></i>
+                    <span>Chat</span>
+                </a>
+                <a href="#" class="d_flex dir_column style_none align_center row_gap_small">
+                    <i class="fa-solid fa-record-vinyl icon_size_1"></i>
+                    <span>Record</span>
+                </a>
+                <a href="#" class="d_flex dir_column style_none align_center row_gap_small">
+                    <i class="fa-solid fa-border-all icon_size_1"></i>
+                    <span>Breakout Rooms</span>
+                </a>
+                <a href="#" class="d_flex dir_column style_none align_center row_gap_small">
+                    <i class="fa-solid fa-ellipsis icon_size_1"></i>
+                    <span>More</span>
+                </a>
+            </div>
+
+            <!-- Leave meeting button here -->
+            <a href="#" class="leave_btn font_size_1 d_flex align_center style_none">
+                End Meeting
+            </a>
+
+
+
+        </nav>
+
     </footer>
     <!-- /#site_footer -->
-    
+
 </body>
+
 </html>
