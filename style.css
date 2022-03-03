@@ -87,6 +87,7 @@ body {
     position: absolute;
     top: 1rem;
     right: 1rem;
+    z-index: 1;
 }
 
 #site_main .top_buttons>a {
